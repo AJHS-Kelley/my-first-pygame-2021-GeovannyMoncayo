@@ -1,4 +1,4 @@
-# My First PyGame, Geovanny Moncayo, 12/01/21 1:55pm, v0.6
+# My First PyGame, Geovanny Moncayo, 12/01/21 2:00pm, v0.7
 
 import pygame, sys
 from pygame.locals import *
@@ -33,7 +33,10 @@ windowSurface.fill(GREY)
 # Draw a polygon onto the screen.
 pygame.draw.polygon(windowSurface, RED, ((146, 0), (291, 106), (236,277), (56, 277), (0, 106)))
 
-# Draw lines on the screen
+# Draw lines on the screen.
 pygame.draw.line(windowSurface, WHITE, (60, 60), (120, 60), 4)
 pygame.draw.line(windowSurface, BLACK, (60, 30), (60, 90), 2)
 pygame.draw.line(windowSurface, BLACK, (120, 30), (120, 90), 2)
+
+#Draw a circle.
+pygame.draw.circle(windowSurface, BLUE, (300,50), 20,0)
