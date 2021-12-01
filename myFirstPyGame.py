@@ -1,4 +1,4 @@
-# My First PyGame, Geovanny Moncayo, 12/01/21 2:02pm, v0.8
+# My First PyGame, Geovanny Moncayo, 12/01/21 2:10pm, v0.8.2
 
 import pygame, sys
 from pygame.locals import *
@@ -43,3 +43,11 @@ pygame.draw.circle(windowSurface, BLUE, (300,50), 20,0)
 
 # Draw an ellipse.
 pygame.draw.ellipse(windowSurface, RED, (300, 250, 40, 80), 1)
+
+# Draw the text rectangle.
+pygame.draw.rect(windowSurface, RED (textRect.left - 20, textRect.top - 20, textRect.width + 40, textRect.height + 40))
+
+# Creat Pixel Array
+pixArray = pygame.pixelArray(windowSurface)
+pixArray[480][380] = BLUE
+del pixArray
