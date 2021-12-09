@@ -1,5 +1,6 @@
-# Simple Animation with PyGame, Geovanny Moncayo, 12/09/21, 2.07PM, v0.2
+# Simple Animation with PyGame, Geovanny Moncayo, 12/09/21, 2:13PM, v0.3
 
+from _typeshed import ReadableBuffer
 import pygame, sys, time
 from pygame.locals import *
 
@@ -19,3 +20,9 @@ UPLEFT = 'upleft'
 UPRIGHT = 'upright'
 
 MOVESPEED = 4
+
+# Setup color values.
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
