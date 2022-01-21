@@ -1,4 +1,4 @@
-# PyGame Collision Detection Practice, Geovanny Moncayo, January 20, 2022, 9:07pm, v1.1a-BUGFIX
+# PyGame Collision Detection Practice, Geovanny Moncayo, January 21, 2022, 1:58pm, v2.0a-BUGFIX
 
 import pygame, sys, random
 from pygame.locals import *
@@ -51,10 +51,10 @@ while True:
             if event.key == K_RIGHT or event.key == K_d:
                 moveLeft = False
                 moveRight = True
-            if event.key == K_Up or event.key == K_w:
+            if event.key == K_UP or event.key == K_w:
                 moveDown = False
                 moveUp = True
-            if event.key == K_Down or event.key == K_s:
+            if event.key == K_DOWN or event.key == K_s:
                 moveUP = False
                 moveDown = True
         if event.type == KEYUP:
@@ -66,9 +66,9 @@ while True:
                 moveLeft = False
             if event.key == K_RIGHT or event.key == K_d:
                 moveRight = False
-            if event.key == K_Up or event.key == K_w:
+            if event.key == K_UP or event.key == K_w:
                 moveUp = False
-            if event.key == K_Down or event.key == K_s:
+            if event.key == K_DOWN or event.key == K_s:
                 moveDown = False
             if event.key == K_x:
                 player.top = random.randint(0, WINDOWHEIGHT - player.height)
